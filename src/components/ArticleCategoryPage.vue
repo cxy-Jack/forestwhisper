@@ -35,10 +35,10 @@
         <img src="../assets/img/冥想.svg" class="nav-icon" alt="冥想" />
         <span>冥想</span>
       </router-link></li>
-      <li><a href="https://banana404.top/shudong-ai/" target="_blank">
+      <li><router-link to="/chat" :class="{ active: $route.path === '/chat' }">
         <img src="../assets/img/Ai聊天.svg" class="nav-icon" alt="AI聊天" />
         <span>AI聊天</span>
-      </a></li>
+      </router-link></li>
     </ul>
     <!-- 根据登录状态显示登录按钮或用户名 -->
     <template v-if="userInfo">
