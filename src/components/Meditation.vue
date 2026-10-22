@@ -76,10 +76,10 @@ export default {
 
     const currentIcon = computed(() => {
       const hour = new Date().getHours()
-      if (hour >= 5 && hour < 12) return require('../assets/img/云朵.png')
-      else if (hour >= 12 && hour < 18) return require('../assets/img/太阳.png')
-      else if (hour >= 18 && hour < 22) return require('../assets/img/月亮.png')
-      else return require('../assets/img/星星.png')
+      if (hour >= 5 && hour < 12) return require('../assets/img/云朵.webp')
+      else if (hour >= 12 && hour < 18) return require('../assets/img/太阳.webp')
+      else if (hour >= 18 && hour < 22) return require('../assets/img/月亮.webp')
+      else return require('../assets/img/星星.webp')
     })
 
     const backgroundStyle = computed(() => {

@@ -14,7 +14,7 @@
     <div class="test-container">
       <div v-if="!showQuiz && !showResults" class="illustration">
         <div class="box">
-          <img src="@/assets/img/透明背景爱心.png" alt="爱心" class="heart-image">
+          <img src="@/assets/img/透明背景爱心.webp" alt="爱心" class="heart-image">
           <h1 class="test-title">请问你具体需要哪一个类型的测试呢？</h1>
         </div>
       </div>

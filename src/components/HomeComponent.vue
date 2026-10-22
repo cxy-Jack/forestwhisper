@@ -8,7 +8,7 @@
   <!-- 顶部导航栏 -->
   <nav class="navbar">
     <div class="logo">
-      <img src="../assets/img/网站logo.png" alt="林影心语网站logo" class="logo-img">
+      <img src="../assets/img/网站logo.webp" alt="林影心语网站logo" class="logo-img">
       <span class="logo-text">林影心语</span>
       <div class="logo-decoration">
         <span class="decoration-heart">❤</span>
@@ -60,12 +60,12 @@
       <a href="#" class="cta-btn" @click.prevent="$router.push('/new-home')">立即进入</a>
     </div>
     <div class="stars-container">
-      <img src="../assets/img/大星星.png" alt="大星星" class="big-star">
-      <img src="../assets/img/小星星.png" alt="小星星" class="small-star">
-      <img src="../assets/img/小星星.png" alt="小星星" class="small-star">
-      <img src="../assets/img/小星星.png" alt="小星星" class="small-star">
-      <img src="../assets/img/小星星.png" alt="小星星" class="small-star">
-      <img src="../assets/img/小星星.png" alt="小星星" class="small-star">
+      <img src="../assets/img/大星星.webp" alt="大星星" class="big-star">
+      <img src="../assets/img/小星星.webp" alt="小星星" class="small-star">
+      <img src="../assets/img/小星星.webp" alt="小星星" class="small-star">
+      <img src="../assets/img/小星星.webp" alt="小星星" class="small-star">
+      <img src="../assets/img/小星星.webp" alt="小星星" class="small-star">
+      <img src="../assets/img/小星星.webp" alt="小星星" class="small-star">
     </div>
   </section>
   
@@ -102,7 +102,7 @@
         <img src="../assets/img/小云朵.svg" alt="右侧小云朵">
       </div>
     </div>
-    <a href="#about" @click="smoothScroll($event, 'about')"><img src="../assets/img/向下占行.png" alt="向下图标" class="down-icon"></a>
+    <a href="#about" @click="smoothScroll($event, 'about')"><img src="../assets/img/向下占行.webp" alt="向下图标" class="down-icon"></a>
   </div>
   
   <!-- 网站介绍部分 - 展示平台核心功能 -->
@@ -110,11 +110,11 @@
     <div class="about-container">
       <div class="about-left">
         <div class="purple-character">
-          <img src="../assets/img/网站logo.png" alt="紫色角色" style="width: 250px;">
+          <img src="../assets/img/网站logo.webp" alt="紫色角色" style="width: 250px;">
           <div class="hearts">
-            <img src="../assets/img/爱心.png" alt="爱心" class="heart">
-            <img src="../assets/img/爱心.png" alt="爱心" class="heart">
-            <img src="../assets/img/爱心.png" alt="爱心" class="heart">
+            <img src="../assets/img/爱心.webp" alt="爱心" class="heart">
+            <img src="../assets/img/爱心.webp" alt="爱心" class="heart">
+            <img src="../assets/img/爱心.webp" alt="爱心" class="heart">
           </div>
         </div>
       </div>
@@ -123,19 +123,19 @@
         <p>基于 Vue3+TS+SCSS 前端与 Python+Rust 后端，集成扣子空间AI接口，打造集AI聊天、心理测评、文章推送、心愿墙、留言墙于一体的心理支持网站。</p>
         <div class="features-grid">
           <div class="feature-card">
-            <img src="../assets/img/精神心理科.png" alt="心理检测">
+            <img src="../assets/img/精神心理科.webp" alt="心理检测">
             <span>心理检测</span>
           </div>
           <div class="feature-card">
-            <img src="../assets/img/留言.png" alt="留言开导">
+            <img src="../assets/img/留言.webp" alt="留言开导">
             <span>留言开导</span>
           </div>
           <div class="feature-card">
-            <img src="../assets/img/人数.png" alt="AI聊天">
+            <img src="../assets/img/人数.webp" alt="AI聊天">
             <span>AI聊天</span>
           </div>
           <div class="feature-card">
-            <img src="../assets/img/shending.png" alt="心理文章">
+            <img src="../assets/img/shending.webp" alt="心理文章">
             <span>心理文章</span>
           </div>
         </div>
@@ -270,12 +270,12 @@ import { faComments, faUsers, faBook, faMessage, faChevronLeft, faChevronRight }
 import { animate } from 'animejs';
 import '../assets/home-style.css';
 
-import xiaojieAvatar from '../assets/img/小杰头像.jpg';
-import txiang from '../assets/img/布莫头像.jpg';
-import starIcon from '../assets/img/星星.png';
-import beijing1 from '../assets/img/背景1.jpg';
-import beijing2 from '../assets/img/背景2.jpg';
-import beijing3 from '../assets/img/背景3.jpg';
+import xiaojieAvatar from '../assets/img/小杰头像.webp';
+import txiang from '../assets/img/布莫头像.webp';
+import starIcon from '../assets/img/星星.webp';
+import beijing1 from '../assets/img/背景1.webp';
+import beijing2 from '../assets/img/背景2.webp';
+import beijing3 from '../assets/img/背景3.webp';
 
 
 

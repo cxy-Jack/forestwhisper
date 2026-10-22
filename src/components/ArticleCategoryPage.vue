@@ -8,7 +8,7 @@
   <!-- 顶部导航栏 -->
   <nav class="navbar">
     <div class="logo">
-      <img src="../assets/img/网站logo.png" alt="林影心语网站logo" class="logo-img">
+      <img src="../assets/img/网站logo.webp" alt="林影心语网站logo" class="logo-img">
       <span class="logo-text">林影心语</span>
       <div class="logo-decoration">
         <span class="decoration-heart">❤</span>
@@ -219,7 +219,7 @@ const fetchCategoryArticles = async () => {
       // 处理文章数据，添加image字段
       const processedArticles = articleList.map(article => ({
         ...article,
-        image: article.image || require('../assets/img/背景2.jpg')
+        image: article.image || require('../assets/img/背景2.webp')
       }));
       
       articles.value = processedArticles;

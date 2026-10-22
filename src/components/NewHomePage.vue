@@ -29,7 +29,7 @@
     <!-- 顶部导航栏 -->
     <nav class="navbar">
       <div class="logo">
-        <img src="../assets/img/网站logo.png" alt="林影心语网站logo" class="logo-img">
+        <img src="../assets/img/网站logo.webp" alt="林影心语网站logo" class="logo-img">
         <span class="logo-text">林影心语</span>
         <div class="logo-decoration">
           <span class="decoration-heart">❤</span>
@@ -82,7 +82,7 @@
       <div class="top-content">
         <!-- 左侧卡通形象 -->
         <div class="cartoon-image">
-          <img src="../assets/img/网站logo.png" alt="卡通形象">
+          <img src="../assets/img/网站logo.webp" alt="卡通形象">
         </div>
 
         <!-- 右侧内容 -->
@@ -348,7 +348,7 @@ const fetchArticles = async () => {
         date: formatDate(article.created),
         title: article.title,
         excerpt: extractExcerpt(article.text), // 除去MD图片的前100个字符作为摘要
-        image: (article.image && article.image !== 'none') ? article.image : (extractFirstImage(article.text) || require('../assets/img/背景2.jpg')), // 优先使用文章image（排除'none'值），其次提取MD中的第一张图片，最后使用默认图片
+        image: (article.image && article.image !== 'none') ? article.image : (extractFirstImage(article.text) || require('../assets/img/背景2.webp')), // 优先使用文章image（排除'none'值），其次提取MD中的第一张图片，最后使用默认图片
         views: article.views,
         created: article.created
       }));

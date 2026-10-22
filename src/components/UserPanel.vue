@@ -237,10 +237,10 @@ export default {
       return setInterval(createHeart, 3200);
     }
 
-    const backgroundImage = require('@/assets/img/用户面板默认背景.jpg')
-    const userAvatar = ref(require('@/assets/img/用户面板默认头像.jpg'))
-    const mascotImage = require('@/assets/img/网站logo.png')
-    const mascotImageWithHeart = require('@/assets/img/透明背景爱心.png')
+    const backgroundImage = require('@/assets/img/用户面板默认背景.webp')
+    const userAvatar = ref(require('@/assets/img/用户面板默认头像.webp'))
+    const mascotImage = require('@/assets/img/网站logo.webp')
+    const mascotImageWithHeart = require('@/assets/img/透明背景爱心.webp')
     
     const userInfo = reactive({
       username: '未登录用户',

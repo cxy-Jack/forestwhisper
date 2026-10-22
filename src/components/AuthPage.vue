@@ -10,7 +10,7 @@
         <div :key="isLogin ? 'login' : 'register'" class="auth-inner">
           <!-- 品牌 -->
           <div class="brand">
-            <img src="@/assets/img/网站logo.png" alt="林影心语" class="brand-logo">
+            <img src="@/assets/img/网站logo.webp" alt="林影心语" class="brand-logo">
             <span class="brand-name">林影心语</span>
           </div>
 
