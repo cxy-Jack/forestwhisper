@@ -1,24 +1,15 @@
-# 林影心语
+### **[English](README.md)** | **[简体中文](./docs/readme/zh.md)**
 
-## Project setup
+# Forest Whisper
+
+## Project Overview
+
+- [Forest Whisper (this project)](https://github.com/cxy-Jack/forestwhisper)
+- [Forest Whisper API](https://github.com/YxlaGyb/forestwhisperGo)
+
+## Run the Project
+
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
