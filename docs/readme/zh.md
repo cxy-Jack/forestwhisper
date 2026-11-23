@@ -5,11 +5,11 @@
 ## 项目简介
 
 - [林影心语 (本项目)](https://github.com/cxy-Jack/forestwhisper)
-- [林影心语 API](https://github.com/YxlaGyb/forestwhisperGo)
+- [林影心语 API](https://github.com/YxlaGyb/forwhis-infra)
 
 ## 启动项目
 
 ```
-npm install
-npm run serve
+pnpm install
+pnpm dev
 ```

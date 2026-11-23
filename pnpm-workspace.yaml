@@ -1,0 +1,6 @@
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  vue-demi: true
+minimumReleaseAgeExclude:
+  - maotaui@0.2.0-alpha.0 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4
